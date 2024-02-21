@@ -1,14 +1,25 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background-color: #d6fffe;
 }
 
-#square {
+.square {
     height: 210px;
-    width: 350px;
+    width: 350px; 
+}
+
+#squareOne {
     background-color: yellow;
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    z-index: 2;
+}
+
+#squareTwo {
+    background-color: blue;
+    position: fixed;
+    bottom: 55%;
+    right: 55%;
+    z-index: 1;
 }
   
